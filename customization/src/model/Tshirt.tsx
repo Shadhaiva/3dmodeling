@@ -37,7 +37,7 @@ const Tshirt = ({
       Math.max(color.g, 0.02),
       Math.max(color.b, 0.02)
     )
-  }, [color])
+  }, [color, materials.color.color])
 
   const genP = () => [-0.075, 0, 0.075][logoP] || 0
   const genS = () => [0.09, 0.12, 0.17][logoS] || 0.12
