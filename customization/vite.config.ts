@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: './customization-main', 
+  base: './customization/', 
   plugins: [react()],
-   assetsInclude: ['**/*.glb']
+  assetsInclude: ['**/*.glb']
 })
