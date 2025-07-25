@@ -1,6 +1,6 @@
 {
-  "name": "customization",
-  "private": false,
+  "name": "ai-powered-tshirt-designer",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
