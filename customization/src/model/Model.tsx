@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 
 import { Tshirt } from './'
-import  { Loader } from '../containers'
+import { Loader } from '../containers'
 import type { Irgb } from '../types'
 
 const Model = ({
