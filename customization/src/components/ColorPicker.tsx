@@ -1,7 +1,6 @@
 import React from 'react'
 import { SketchPicker } from 'react-color'
 
-// Irgb type for color
 export interface Irgb {
   r: number
   g: number
